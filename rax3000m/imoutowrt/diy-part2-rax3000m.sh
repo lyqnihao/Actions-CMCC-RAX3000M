@@ -18,6 +18,8 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 # 修正连接数（by ベ七秒鱼ベ）
 sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=65535' package/base-files/files/etc/sysctl.conf
 
+# 删除自带老版本OpenClash
+rm -rf feeds/luci/applications/luci-app-openclash
 # themes添加（svn co 命令意思：指定版本如https://github）
 # git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 # git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
@@ -26,8 +28,8 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=65535' package
 
 # 添加额外软件包
 # git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
-# git clone https://github.com/vernesong/OpenClash.git --depth=1 package/OpenClash
-git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/vernesong/OpenClash.git --depth=1 package/OpenClash
+# git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git package/luci-app-adguardhome
 
 # 添加核心温度的显示
 # sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm

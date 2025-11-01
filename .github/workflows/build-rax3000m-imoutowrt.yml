@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build RAX3000M ImmortalWrt
+name: Build RAX3000M ImmortalWrt (hanwckf)
 
 on:
   repository_dispatch:
@@ -22,8 +22,8 @@ on:
 #    - cron: 00 8 * * 6
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: rax3000m/imoutowrt/rax3000m-imoutowrt.config
   DIY_P1_SH: diy-part1.sh
