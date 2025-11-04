@@ -1,6 +1,6 @@
 [简体中文](./README.zh-CN.md) | English
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-CMCC-RAX3000M?style=for-the-badge&label=下载)](https://github.com/shawnpxtl/Actions-CMCC-RAX3000M/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-CMCC-RAX3000M?style=for-the-badge&label=Download)](https://github.com/shawnpxtl/Actions-CMCC-RAX3000M/releases/latest)
 
 # About this repository
 
