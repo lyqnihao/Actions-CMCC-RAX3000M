@@ -20,7 +20,6 @@ on:
         default: 'false'
 #   schedule:
 #    - cron: 00 8 * * 6
- workflow_dispatch:      # 允许手动触发
 
 permissions:
   contents: write
