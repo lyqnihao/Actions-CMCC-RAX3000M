@@ -7,7 +7,7 @@
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
 
 Use Github Actions Automatically compile firmware for CMCC RAX3000M  
-In principle, the firmware of this project is automatically compiled once a week, and you can also fork to modify it by yourself.  
+In principle, the firmware of this project is automatically compiled once a week, 和 you can also fork to modify it by yourself.  
 If you think this project is good, you can star it, I will be very grateful!  
 
 ## Features
