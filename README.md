@@ -17,10 +17,6 @@ If you think this project is good, you can star it, I will be very grateful!
 * DDNS
 * More functions by themselves (may be refreshed from time to time to check)...
 
-## Instructions
-
-Do you want to flashing [ImmortalWrt](tutorial/ImmortalWrt.en_US.md) or [OpenWrt](tutorial/OpenWrt.en_US.md)?
-
 ## Default IP address and password
    | project | value |
    | :--- | :--- |
