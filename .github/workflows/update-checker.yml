@@ -4,7 +4,7 @@ on:
   workflow_dispatch: # 允许你手动触发测试
   schedule:
     # 每小时检查一次
-    - cron: '0 * * * *'
+    - cron: '0 8 * * 6'
 
 # ‼️ 在这里填入上游仓库的 "所有者/仓库名"
 env:
