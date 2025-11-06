@@ -11,6 +11,7 @@
 name: Build RAX3000M ImmortalWrt (hanwckf)
 
 on:
+  workflow_call:
   repository_dispatch:
   workflow_dispatch:
     inputs:
